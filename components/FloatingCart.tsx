@@ -23,7 +23,7 @@ export function FloatingCart() {
           </div>
           <div className="mt-4">
             <div className="mb-2 flex justify-between text-[10px] font-bold uppercase tracking-[.08em] text-black/55"><span>Доставка 500 ₽</span><span>Бесплатно от 10 000 ₽</span></div>
-            <div className="h-1.5 overflow-hidden rounded-full bg-sand/65"><div className="h-full rounded-full bg-terra" style={{width:`${progress}%`}}/></div></div>
+            <div className="h-1.5 overflow-hidden rounded-full bg-sand/65"><div className="h-full rounded-full bg-terra" style={{width:`${progress}%`}}/></div>
             <p className="mt-2 text-xs text-ink/70">Добавьте ещё на <b>{money(remaining)}</b> — и доставка будет бесплатной</p>
           </div>
         </Link>
