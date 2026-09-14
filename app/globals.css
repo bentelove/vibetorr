@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color: #2E302D; background: #F7F4EE; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Manrope', Arial, sans-serif; background: #F7F4EE; color: #2E302D; }
+h1,h2,h3 { font-family: 'Playfair Display', Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+.container { max-width: 1280px; margin: auto; padding: 0 24px; }
+.eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #B86D52; }
+.button { display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:14px 22px; font-size:13px; font-weight:700; transition:.2s; }
+.button-dark { background:#2E302D; color:white; }.button-dark:hover { background:#B86D52; }
+.button-light { background:white; color:#2E302D; }.button-light:hover { background:#D9C8B4; }
+.product-image { object-fit:cover; width:100%; height:100%; }
